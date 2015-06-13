@@ -17,7 +17,7 @@ Install `grunt-cli and karma`:
 npm install -g yo grunt-cli karma
 ```
 
-Install `generator-react-webpack`:
+Install [generator-react-webpack](https://github.com/newtriks/generator-react-webpack):
 ```
 npm npm install -g generator-react-webpack
 ```
@@ -32,4 +32,10 @@ git clone git@github.com:unik-experience/play-with-react.git && cd play-with-rea
 
 ```
 grunt serve
+```
+
+## Test it
+
+```
+grunt test
 ```
