@@ -1,6 +1,7 @@
 'use strict';
 
 var React = require('react/addons');
+var SalamAll = require('./SalamAll');
 var ReactTransitionGroup = React.addons.TransitionGroup;
 
 // CSS
@@ -13,6 +14,7 @@ var PlayWithReactApp = React.createClass({
   render: function() {
     return (
       <div className='main'>
+        <SalamAll />
         <ReactTransitionGroup transitionName="fade">
           <img src={imageURL} />
         </ReactTransitionGroup>
